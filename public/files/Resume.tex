@@ -1,0 +1,291 @@
+%-------------------------
+% Resume in Latex
+% Author : Shubhi Rani
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10.8pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{times}
+% \renewcommand\familydefault{\sfdefault}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.8in}
+\addtolength{\textheight}{1.57in}
+\addtolength{\topmargin}{-\headheight}
+\addtolength{\topmargin}{-\headsep}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}
+{\filcenter\scshape\large}
+{}{0em}{}[\color{black}\titlerule\vspace{5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+% Set hyperlink color to blue
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+
+\usepackage{tabularx}
+
+%for lists within experience section
+\usepackage{enumitem}
+
+% centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X} 
+
+%to prevent spillover of tabular into next pages
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+\RequirePackage{color}
+\RequirePackage{graphicx}
+%for social icons
+\usepackage{fontawesome5}
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+% Set spacing for other sections
+\titlespacing{\section}{0pt}{10pt}{2pt}
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+
+
+
+\begin{center}
+\textbf{\fontsize{16}{28}\selectfont Abhishek Verma}
+\end{center}
+
+\begin{center}
+
+\href{tel:+2028907494} 
+{\raisebox{-0.05\height}\faPhone\ +(202) 890-7494} \ $|$ \
+\href{mailto:averma.csgrad@gmail.com}
+{\raisebox{-0.05\height}\faEnvelope \ averma.csgrad@gmail.com} \
+$|$ \
+\href{https://www.linkedin.com/in/a-verma26/}{\raisebox{-0.05\height}\faLinkedin\ linkedin.com/in/a-verma26} \ $|$ \
+\href{https://github.com/a-verma26}{\raisebox{-0.05\height}\faGithub\ github.com/a-verma26} \ 
+\end{center}
+
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {George Mason University}{Fairfax, VA}
+      {Master of Science in Computer Science;  GPA: 3.92}{August 2022 - May 2024 (Expected)}
+       
+      % \vspace{4pt}
+      %  {Availability: May 20, 2024 \& Onwards}
+
+
+	   % {\scriptsize \textit{Courses: Computer System Programming, Database Systems, Analysis of Algorithms, Component-Based Software Development}}
+	    \vspace{2pt}
+    \resumeSubheading
+      {National Institute of Technology (NIT)}{Jalandhar, India}
+      {Bachelor of Technology in Computer Science and Engineering;   GPA: 3.64 }{August 2016 - June 2020}
+
+        % {\scriptsize \textit{Courses: Object Oriented Programming, Operating Systems, Artificial Intelligence,  Data Mining and Data Warehousing }}
+      
+  \resumeSubHeadingListEnd
+
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+
+  \resumeSubHeadingListStart
+
+      \resumeSubheading
+    {George Mason University}{Fairfax, VA}
+    {\textbf{Graduate Teaching Assistant - Software Engineering}}{August 2022 -  Present}
+   
+    \resumeItemListStart
+    \item {Led lab sessions for 80+ students, facilitating hands-on programming experience in JAVA, JavaScript and Node.js.}
+     \vspace{-3pt}
+    \item {Instructed lab exercises covering OOP concepts like classes, inheritance, APIs, database integration, debugging and testing.}
+
+      \resumeItemListEnd
+     \resumeSubheading
+    {Ballotpedia}{Middleton, WI}
+    {\textbf{Data Engineer Intern}}{June 2023 - August 2023}
+\vspace{3pt}
+    \resumeItemListStart
+   
+   \item{Engineered Python-based ETL processes leveraging AWS S3 for large-scale voting datasets. Extracted 50,000+ records from 200+ documents, applied transformative and cleansing procedures and loaded processed data into a SQL database.}
+     \item {Delivered an AI-powered web application using React.js, Node.js and OpenAI API that extracts representative voting records from PDF files, reducing manual work by 90\%. }
+        \item{Employed batch processing techniques to transform unstructured text and tables from 3500 county voting PDFs into analytical CSV datasets using custom regex scripts.}
+     \vspace{3pt}
+     % \item {Automated a Python script using Selenium WebDriver for web scraping of state election data, maintaining a 95\% success rate in handling alerts and stale elements. Processed 3500 CSV files using pandas for multiple election dates and parishes. Streamlined unique data extraction from merged CSV files for seamless database integration.}
+  
+   
+
+        
+      \resumeItemListEnd
+      
+
+      
+    \resumeSubheading
+		{Info Edge India Ltd (Naukri.com)}{Noida, India}
+		{\textbf{Senior Software Engineer}}{August 2020 - July 2022}
+  \vspace{3pt}
+		\resumeItemListStart
+     
+             \item {Revamped multiple user interfaces using React.JS, TypeScript and AngularJS yielding in a 16\% enhancement in performance, evaluated by PageSpeed Insights. Achieved 95\% code coverage with Jest and Enzyme, reducing production bugs by 30\%.}
+                 \item {Designed REST and GraphQL APIs leveraging Node.js and implemented client-side rendering using React.JS that reduced page load latency by 40\% and lifted search visibility by 20\% as quantified by Google's PageSpeed Insights.}
+                    
+                            \item{Built and Collaborated on reusable user profile, jobs, and application microservices with over 90\% code reuse using Java, Spring, PHP, MySQL for Naukri.com job portal, enabling 60\% faster development across projects. }
+                            \vspace{3pt}
+                     % \item{ Built reusable services for user profile, jobs, and applications with over 90\% code reuse across portal. Reduced service downtime by 21\% through extensive JUnit testing. }
+
+    
+       
+
+
+  
+    % \item{Built and consumed RESTful APIs in .NET Core and integrated with Azure Cloud Services like App Insights for monitoring}
+
+		\resumeItemListEnd
+
+
+    \resumeSubheading
+    {EKO India Financial Services}{Gurgaon, India}
+    {\textbf{Software Developer Engineer Intern}}{June 2019 - July 2019}
+    \vspace{3pt}
+    \resumeItemListStart
+    \item {Developed a scalable web-based Twitter Sentiment Analysis tool using Python and Flask, which enabled the customer support team to categorize and respond to 5,000+ customer feedback messages in real-time, leading to a 30\% reduction in response time.}
+
+%     \item {Improved ML Model Accuracy by 2.8\%  by using an exhaustive list of stopwords and negation detection approach.
+% }
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+
+ \resumeSubHeadingListStart
+    \resumeSubheading
+    {\href{https://github.com/a-verma26/Urgent-Unity}{Urgent Unity}} {Fairfax, VA}
+    {Hackathon Project}    
+ {October 2023 - October 2023}
+    \resumeItemListStart
+    \item {Architected HIPAA-compliant full-stack web application using MERN stack (MongoDB, Express.js, React.js, Node.js). Built a dashboard showing real-time CPR-certified professionals provider availability metrics, location and urgent case  priorities.}
+
+    \item{Implemented scalable API endpoints using Node.js facilitating urgent coordination between patients and first responders via AWS Translate's multi-language speech translation and Google Maps for navigation and insurance-aware hospital routing.}
+        \item{Optimized algorithm for provider ranking, achieving an average dispatch time of 2 minutes for 100 simulated cases.}
+    
+
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+ \resumeSubHeadingListStart
+    \resumeSubheading
+    {\href{https://github.com/a-verma26/University-FeedbackXpress}{University FeedbackXpress}} {Fairfax, VA}
+    {Academic Project} {January 2023 - May 2023}
+    \resumeItemListStart
+\item {Developed elastic and microservices-based applications with user interface using AngularJS, RESTful Web Services, and SpringBoot to collect survey feedback from GMU students, leading to a 30\% improvement in page reload time.}
+\item {Employed Docker, Kubernetes, Jenkins CI/CD pipeline, and Amazon RDS/SQL for optimal performance, storage, and deployment, contributed to 40\% reduction in deployment time.
+}
+   
+  
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+%-----------Awards-----------------
+% \section{Achievements}
+% \resumeSubHeadingListStart
+% % \resumeSubItem{The Modern Python 3 BootCamp}{Awarded By Udemy\hspace{-6pt}}{\href{https://www.udemy.com/certificate/UC-34XZMW3B/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email}{Link}}
+% % \resumeSubItem{React- The Complete Guide:}{Awarded By Udemy\hspace{-6pt}}{\href{https://www.udemy.com/certificate/UC-b029a919-8a92-48ae-989f-3c237a5d67c5/}{\textcolor{blue}Link}}
+% % \resumeSubItem{Graph Search, Shortest Paths \& Data Structures}{Authorized by Stanford University and offered through Coursera\hspace{-6pt}}{\href{https://www.coursera.org/account/accomplishments/verify/WAKLK8TH9RRE}{\textcolor{blue}Link}}
+
+% \resumeSubItem{Global Programming Competition}{Ranked 1 out of 27875 teams in SnackDown 2019 Online Qualifier Round.}
+% \resumeSubItem{Team Head, NIT Jalandhar}{Organized 2 hackathons, attracting over 100 participants and raising \$800 in sponsorship funds.}
+% \resumeSubHeadingListEnd
+%-------------------------------------------
+
+%
+
+%--------PROGRAMMING SKILLS------------
+\section{Skills}
+\resumeSubHeadingListStart
+\resumeSubItem{Languages}{Java, Python, JavaScript, TypeScript, C\#, C++, C, SQL, PHP, Scala and Go  }
+\vspace{1.5pt}
+\resumeSubItem{Database}{MySQL, PostgreSQL, MongoDB, SQL Server, Oracle Server, JDBC, BigQuery, Redis }
+\vspace{1.5pt}
+\resumeSubItem{Web Technologies}{Spring Boot, React.JS \& Redux, Node.Js, REST, AngularJS, Django, Flask, .NET, HTML, jQuery, CSS, Webpack, Babel}
+\vspace{1.5pt}
+\resumeSubItem{Big Data}{Apache Spark, MapReduce, Hadoop, Kafka}
+\vspace{1.5pt}
+\resumeSubItem{DevOps and Tools}{GIT, Jenkins, Docker, Kubernetes, Terraform, Ansible, Postman, JIRA, AWS, Azure, EC2, S3, GCP, Maven}
+\vspace{1.5pt}
+\resumeSubItem{Data Science}{Deep Learning, Machine Learning, NLP, NumPy, Pandas,  Scikit-learn, Tensorflow, Pytorch, Statistics}
+% \resumeSubItem{Cloud Technologies}{}
+\resumeSubHeadingListEnd
+
+
+\end{document}
