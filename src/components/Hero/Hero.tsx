@@ -20,7 +20,7 @@ const Hero = () => {
             {/* <SubText>Think 2x. Code 1x.</SubText> */}
             <Text>
                 I’m a full-stack engineer specialising in building highly accessible, human-centered
-                applications for the web. Currently, I’m pursuing a Master’s
+                applications that help businesses grow. Currently, I’m pursuing a Master’s
                 degree in Computer Science at{" "}
                 <Link
                     href="https://www.gmu.edu"
