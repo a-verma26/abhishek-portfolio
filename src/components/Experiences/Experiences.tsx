@@ -71,15 +71,13 @@ const Experiences: React.FC = () => {
                     <Description>
                       Designed REST and GraphQL APIs leveraging Node.js and
                       implemented client-side rendering using React.JS that
-                      reduced page load latency by 40% and lifted search
-                      visibility by 20% as quantified by Google’s PageSpeed
-                      Insights.
+                      reduced page load latency by 40%.
                     </Description>
 
                     <Description>
                       Revamped multiple user interfaces using React.JS,
                       TypeScript and AngularJS yielding in a 16% enhancement in
-                      performance, evaluated by PageSpeed Insights. Achieved 95%
+                      performance, evaluated by Google's PageSpeed Insights. Achieved 95%
                       code coverage with Jest and Enzyme, reducing production
                       bugs by 30%.
                     </Description>
