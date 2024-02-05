@@ -81,7 +81,7 @@ export default function App({ Component, pageProps }: AppProps) {
                 <meta
                     name="image"
                     property="og:image"
-                    content="/images/hero.png"
+                    content="images/hero.png"
                 />
                 <link rel="canonical" href="https://abhishekverma.me" />
                 <meta property="og:url" content="https://abhishekverma.me" />
