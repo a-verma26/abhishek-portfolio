@@ -83,8 +83,8 @@ export default function App({ Component, pageProps }: AppProps) {
                     property="og:image"
                     content="images/hero.png"
                 />
-                <link rel="canonical" href="https://abhishekverma.me" />
-                <meta property="og:url" content="https://abhishekverma.me" />
+                <link rel="canonical" href="https://abhishek-portfolio-orpin.vercel.app/" />
+                <meta property="og:url" content="https://abhishek-portfolio-orpin.vercel.app/" />
                 <meta property="og:type" content="website" />
 
                 <script
