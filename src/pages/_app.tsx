@@ -76,7 +76,7 @@ export default function App({ Component, pageProps }: AppProps) {
                 <meta
                     name="description"
                     property="og:description"
-                   content="A CS Grad that develops applications to help businesses grow."
+                   content="A Full Stack Engineer that develops applications to help businesses grow."
                 />
                 <meta
                     name="image"
