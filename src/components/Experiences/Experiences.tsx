@@ -29,22 +29,36 @@ const Experiences: React.FC = () => {
                 <Company>Ballotpedia</Company>
                 <Role>Data Engineer Intern</Role>
                 <Description>
-                  Delivered an AI-powered web application using React.js,
-                  Node.js and OpenAI API that extracts representative voting
-                  records from PDF files, reducing manual work by 90%.Engineered
-                  Python-based ETL processes leveraging AWS S3 for large-scale
-                  voting datasets.
-                </Description>
-                <Description>
-                  Extracted 50,000+ records from 200+ documents, applied
-                  transformative and cleansing procedures and loaded processed
-                  data into a SQL database.
-                </Description>
-                <Description>
-                  {" "}
-                  Employed batch processing techniques to transform unstructured
-                  text and tables from 3500 county voting PDFs into analytical
-                  CSV datasets using custom regex scripts.
+                  <em>
+                    {" "}
+                    For three months, I dove into the fascinating world of
+                    voting data at Ballotpedia. My mission? Simplify access to
+                    complex information and make it easier for anyone to
+                    understand our elections data. Here's what I achieved:{" "}
+                  </em>
+                  <br /> <br />
+                  I created a user-friendly ReactJS dashboard that leverages
+                  cutting-edge AI (OpenAI's GPT-3.5) to automatically analyze
+                  thousands of PDFs, saving a massive 90% of manual effort.
+                  Imagine exploring crucial voting information with just a few
+                  clicks!
+                  <br /> <br />
+                  My role extended to developing Python-based ETL processes on
+                  AWS S3, efficiently handling and processing 50,000 records
+                  from 200 documents. The cleaned data was then loaded into a
+                  SQL database for easy access and retrieval.
+                  <br /> <br />
+                  I improved back-end test coverage by 15%, conducted
+                  comprehensive unit testing, and collaborated with
+                  cross-functional teams to create 3 Node.js API endpoints. Our
+                  focus on collaboration and efficiency was enhanced through the
+                  use of a CI/CD pipeline for faster deployment and development.
+                  <br /> <br />
+                  <em>
+                    ~ This experience wasn't just about technology; it was about
+                    making data more accessible and meaningful for better
+                    decision-making.
+                  </em>
                 </Description>
               </Info>
             </Item>
@@ -69,17 +83,26 @@ const Experiences: React.FC = () => {
                     <Company>Info Edge</Company>
                     <Role>Senior Software Engineer</Role>
                     <Description>
-                      Designed REST and GraphQL APIs leveraging Node.js and
-                      implemented client-side rendering using React.JS that
-                      reduced page load latency by 40%.
+                      <em>
+                        At Info Edge India Ltd, I started as a Software Engineer
+                        and within just 9 months, earned a promotion to Senior,
+                        focusing on making Naukri.com, the leading job portal, a
+                        smoother and faster experience for everyone. Here's what
+                        I poured my heart into:
+                      </em>
                     </Description>
-
+                    <br />
                     <Description>
-                      Revamped multiple user interfaces using React.JS,
-                      TypeScript and AngularJS yielding in a 16% enhancement in
-                      performance, evaluated by Google's PageSpeed Insights. Achieved 95%
-                      code coverage with Jest and Enzyme, reducing production
-                      bugs by 30%.
+                      I modernized user interfaces using ReactJS, TypeScript,
+                      and AngularJS, making them not only sleek but also 16%
+                      faster (verified by PageSpeed Insights!).
+                      <br /> Bonus: I implemented thorough testing (think 95%
+                      code coverage!), reducing bugs by 30%.
+                      <br /> <br />I led the executed the migration of APIs from
+                      Spring Boot to Node.js, giving them a whole new lease on
+                      life. I then added the magic touch of client-side
+                      rendering with ReactJS, cutting the average response time
+                      by a 40%!
                     </Description>
                   </Info>
                 </Bullet>
@@ -92,11 +115,23 @@ const Experiences: React.FC = () => {
                   <Info>
                     <Time>August 2020 - April 2021</Time>
                     <Role>Software Engineer</Role>
+
                     <Description>
-                      Built and Collaborated on reusable user profile, jobs, and
-                      application microservices with over 90% code reuse using
-                      Java, Spring, PHP, MySQL for Naukri.com job portal,
-                      enabling 60% faster development across projects.
+                      Collaborating with others, I developed modular
+                      microservices for user profiles, jobs, and applications
+                      using Java, Spring, PHP, and MySQL. This approach
+                      maximized code reuse (over 90%) and accelerated
+                      development timelines by 60%, contributing to significant
+                      efficiency gains.
+                      <br />
+                      <br />
+                      <em>
+                        {" "}
+                        ~ Overall, my time at Info Edge was a journey of
+                        continuous improvement, helping millions of job seekers
+                        and companies connect seamlessly. It was challenging,
+                        rewarding, and definitely a highlight of my career!
+                      </em>
                     </Description>
                   </Info>
                 </Bullet>
@@ -124,11 +159,29 @@ const Experiences: React.FC = () => {
                     <Company>Eko India Financial Services</Company>
                     <Role>Software Engineer Intern</Role>
                     <Description>
-                      Developed a scalable web-based Twitter Sentiment Analysis
-                      tool using Python and Flask, which enabled the customer
-                      support team to categorize and respond to 5,000+ customer
-                      feedback messages in real-time, leading to a 30% reduction
-                      in response time
+                      <em>
+                        {" "}
+                        During my internship at EKO India Financial Services, I
+                        delved into the world of customer sentiment analysis. My
+                        mission? Empower the customer support team with a
+                        powerful tool to better understand their customers.
+                        Here's what I achieved:{" "}
+                      </em>
+                      <br /> <br />
+                      Leveraging Python and Django, I built a scalable web-based
+                      tool for Twitter sentiment analysis, empowering the
+                      support team to efficiently categorize 5,000 customer
+                      feedback messages. This tool facilitated a 30% improvement
+                      in identifying positive sentiment trends, allowing the
+                      team to better understand and serve their customers.
+                      <br /> <br />
+                      <em>
+                        {" "}
+                        ~ Overall, my internship at EKO India was a rewarding
+                        experience that allowed me to contribute to a real-world
+                        business problem and witness the positive impact of
+                        data-driven solutions.
+                      </em>
                     </Description>
                   </Info>
                 </Bullet>
