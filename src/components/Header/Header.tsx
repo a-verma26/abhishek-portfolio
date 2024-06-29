@@ -62,9 +62,9 @@ const Header = ({
                     <Hamburger toggled={showSidebar} onToggle={toggleSidebar} />
                 </MenuButton>
             </Wrapper>
-            <Banner>
-                I’m Open to work! I’m currently looking for a full-time software
-                engineering role for 2024
+           <Banner>
+            
+            Building tomorrow's healthcare tech | Full Stack Developer at <a className="Header_aLink__U31di" target="_blank" href="https://hinckleymed.com/" style={{ textDecoration: 'underline', color: 'var(--color-background-dark)' }}>Hinckley Medical</a>
             </Banner>
         </>
     );
