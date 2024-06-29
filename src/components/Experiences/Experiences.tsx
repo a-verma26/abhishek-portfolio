@@ -15,6 +15,31 @@ const Experiences: React.FC = () => {
           <TimeLine />
           <SlideUp>
             <Item>
+              <Image src="images/hinckleymedical.png" alt="hinckleymedical"></Image>
+              <DotPrimary>
+                <DotCore />
+              </DotPrimary>
+              <Connector />
+              <Info>
+                <MobileImage
+                  src="images/hinckleymedical.png"
+                  alt="hinckleymedical"
+                ></MobileImage>
+                <Time>May 2024 - Present</Time>
+                <Company>Hinckley Medical</Company>
+                <Role>Full Stack Developer</Role>
+                <Description>
+                I’m developing a platform to streamline EMS operations and reduce manual work for healthcare professionals. 
+                Using React Native for mobile interfaces and AWS Amplify for backend processes, 
+                I’m integrating AI-driven features to enhance decision-making and automate routine tasks in emergency medical services.
+                  <br /> <br />
+                </Description>
+              </Info>
+            </Item>
+          </SlideUp>
+
+          <SlideUp>
+            <Item>
               <Image src="images/ballotpedia.jpg" alt="ballotpedia"></Image>
               <DotPrimary>
                 <DotCore />
@@ -392,7 +417,6 @@ const Image = styled.img`
   height: 200px;
   width: 200px;
   border-radius: 8px;
-  border: 1px solid ${({ theme }) => theme.colors.primary};
 `;
 
 const MobileImage = styled.img`
@@ -406,7 +430,6 @@ const MobileImage = styled.img`
   width: 100px;
   margin-bottom: 16px;
   border-radius: 8px;
-  border: 1px solid ${({ theme }) => theme.colors.primary};
 `;
 
 const Title = styled(SectionTitle)``;
